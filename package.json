@@ -1,21 +1,24 @@
 {
-  "name": "example",
-  "version": "1.0.0",
-  "description": "My world-class Nuxt.js project",
-  "author": "Adrien Auroux",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
-    "element-ui": "^2.4.11"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+    "name": "example",
+    "version": "1.0.0",
+    "description": "My world-class Nuxt.js project",
+    "author": "Adrien Auroux",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start --hostname 0.0.0.0 --port 8439",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/pwa": "^2.6.0",
+        "cross-env": "^5.2.0",
+        "element-ui": "^2.4.11",
+        "nuxt": "^2.3.4",
+        "vue-touchfeedback": "^2.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
 }
