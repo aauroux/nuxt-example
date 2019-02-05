@@ -21,11 +21,7 @@
         margin:  0 -20px;
     }
 
-    .resource-meta + .resource-meta {
-        margin-top:  16px;
-        /*border-top:  1px solid #EDEDED;*/
-        /*padding-top: 14px;*/
-    }
+    .resource-meta + .resource-meta { margin-top: 16px; }
 
     .resource-meta-label {
         text-transform: uppercase;

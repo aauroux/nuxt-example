@@ -1,22 +1,13 @@
 <template>
-    <div class="alerts">
-        <el-alert class="alert" v-for="alert, i in $store.state.notifications.messages" :key="i" :title="alert.title" :type="alert.type" :description="alert.description" :closable="false"/>
+    <div class="notifications">
+        <el-alert class="notification" v-for="message, i in $store.state.notifications.messages" :key="i" :title="message.title" :type="message.type" :description="message.description" :closable="false"/>
     </div>
 </template>
 
-<script>
-    export default {
-    }
-</script>
-
 <style>
 
-    .alerts {
-        margin-top: -20px;
-    }
+    .notifications { margin-top: -20px; }
 
-    .alert {
-        margin-top: 20px;
-    }
+    .notification { margin-top: 20px; }
 
 </style>

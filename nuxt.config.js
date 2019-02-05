@@ -22,6 +22,7 @@ module.exports = {
     meta: {
         nativeUI: true,
         theme_color: '#000',
+        appleStatusBarStyle: 'black',
     },
 
     /*

@@ -21,11 +21,10 @@
         },
     }
 </script>
+
 <style>
 
-    .page-header {
-        margin-bottom: 20px;
-    }
+    .page-header { margin-bottom: 20px; }
 
     .page-header-back-button {
         font-size: 0.7em;
