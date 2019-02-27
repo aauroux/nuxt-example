@@ -1,11 +1,11 @@
-{
+ {
     "name": "example",
     "version": "1.0.0",
     "description": "My world-class Nuxt.js project",
     "author": "Adrien Auroux",
     "private": true,
     "scripts": {
-        "dev": "nuxt",
+        "dev": "nuxt --hostname 0.0.0.0 --port 4000",
         "build": "nuxt build",
         "start": "nuxt start --hostname 0.0.0.0 --port 8439",
         "generate": "nuxt generate"
